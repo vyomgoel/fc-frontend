@@ -1,7 +1,8 @@
 import ChatContext from "./chatContext";
 import { useState } from "react";
+import { BACKEND_URI } from "../../../const";
 const ChatState = (props) => {
-  const host = "http://localhost:5000";
+  const host = BACKEND_URI;
   const chatInitail = [];
   const [chat, setChat] = useState(chatInitail);
   //GET ALL NOTE

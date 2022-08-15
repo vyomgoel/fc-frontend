@@ -1,7 +1,8 @@
 import contactContext from "./contactContext";
 import { useState } from "react";
+import { BACKEND_URI } from "../../../const";
 const contactState = (props) => {
-  const host = "http://localhost:5000";
+  const host = BACKEND_URI;
   const contactssInitial = [];
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [contacts, setContacts] = useState(contactssInitial);
