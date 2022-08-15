@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import { BACKEND_URI } from "../../const";
+import { BACKEND_URI } from "../const";
 const Signup = (props) => {
   const [credentials, setCredentials] = useState({
     name: "",

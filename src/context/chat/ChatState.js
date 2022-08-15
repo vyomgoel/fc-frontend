@@ -1,6 +1,6 @@
 import ChatContext from "./chatContext";
 import { useState } from "react";
-import { BACKEND_URI } from "../../../const";
+import { BACKEND_URI } from "../../const";
 const ChatState = (props) => {
   const host = BACKEND_URI;
   const chatInitail = [];

@@ -1,6 +1,6 @@
 import contactContext from "./contactContext";
 import { useState } from "react";
-import { BACKEND_URI } from "../../../const";
+import { BACKEND_URI } from "../../const";
 const contactState = (props) => {
   const host = BACKEND_URI;
   const contactssInitial = [];
